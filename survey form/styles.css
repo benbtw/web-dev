@@ -1,0 +1,20 @@
+* {
+    font-size: 24px;
+    color: #fff;
+    background: #141414;
+}
+
+header {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.form__class {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+}
+

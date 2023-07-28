@@ -7,6 +7,45 @@
     <title>Survey Form</title>
 </head>
 <body>
-    
+    <header>
+        <h1>Survey Form</h1>
+        <p>basic survey form</p>
+    </header>
+    <form class="form__class">
+        <label class="labels">Name</label><br>
+        <input type="text" placeholder="Enter your name" required></br>
+        <label class="labels">Email</label><br>
+        <input type="text" placeholder="Enter your email" required></br>
+        <label class="labels">Age (optional)</label><br>
+        <input type="text" placeholder="Age"></br>
+        <label class="labels">Which option best describes your current role?</label><br>
+        <select name="role" id="role" required>
+            <option value="" disabled selected>Select your option</option>
+            <option value="student">Student</option>
+            <option value="fulltime">Full Time Job</option>
+            <option value="parttime">Part Time Job</option>
+            <option value="other">Other</option>
+        </select></br>
+        <label class="lables">Does this survey serve a purpose?</label><br>
+        <select name="purpose" id="purpose" required>
+            <option value="" disabled selected>Select your option</option>
+            <option value="yes">Yes</option>
+            <option value="no">No</option>
+        </select></br>
+        <div class="quality">
+        <label class="labels" >What would you like to see improved</label><br>
+        <input type="checkbox" class="improvBox">
+        <label>Design</label><br></br>
+        <input type="checkbox" class="improvBox">
+        <label>Layout</label><br></br>
+        <input type="checkbox" class="improvBox">
+        <label>Everything?</label><br></br>
+    </div>
+    <div class="comsug">
+    <label>Any comments or suggestions?</label><br>
+    <input class="suggest" type="textbox"></br>
+    </div>
+    <button class="btn" type="submit">Submit</button>
+    </form>
 </body>
 </html>
