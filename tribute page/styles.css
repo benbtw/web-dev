@@ -1,0 +1,58 @@
+body {
+    font-family: "Kumbh Sans",sans-serif;
+}
+
+.webpage {
+    background: #ECECEC;
+    padding: 25% 25% 1% 25%;
+    width: 50%;
+    height: 45%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+}
+
+.brief__intro p {
+    text-align: center;
+}
+
+
+.brief__intro h1 {
+    font-size: 45px;
+    margin: auto;
+    margin-top: -250px;
+    text-align: center;
+}
+
+#img__area {
+    background: #fff;
+    margin-left: -240px;
+    width: 1050px;
+    padding-left: 25px;
+    padding-bottom: 20px;
+    margin-top: -150px;
+}
+
+#achievements h2 {
+    font-size: 20px;
+    text-align: center;
+}
+
+#achievements li {
+    margin: 20px 0;
+    font-size: 15px;
+}
+
+#achievements p {
+    text-align: left;
+    margin-left: -10px;
+}
+
+.webpage h2 {
+    margin: 50px 0;
+    font-size: 25px;
+    text-align: center;
+    display: inline;
+}
