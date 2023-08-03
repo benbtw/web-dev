@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header {
+    color: white;
+    background-color: #0a0a23;
+    display: flex;
+    justify-content: center;
+    padding: 5px 0;
+}
+
+body {
+    background-color: #d0d0d5;
+}
+
+#login-box {
+    border: 3px solid black;
+    width: 400px;
+    height: 600px;
+    margin: auto;
+    margin-top: 55px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#logo {
+    width: 2rem;
+    height: 2rem;
+    margin-top: 35px;
+}
+
+#login-box p {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+#login-selection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#google img {
+    width: 1.4rem;
+    height: 1.4rem;
+}
+
+#google {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    vertical-align: middle;
+    border: 2px gray solid;
+    width: 250px;
+    height: 50px;
+    margin-top: 50px;
+}
+
+#google:hover {
+    background-color: darkgray;
+    transition: all 0.15s ease-in;
+    cursor: pointer;
+}
+
+#google p {
+    font-size: 15px;
+    margin: auto 30px;
+}
+
+#github img {
+    width: 1.4rem;
+    height: 1.4rem;
+}
+
+#github {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    vertical-align: middle;
+    border: 2px gray solid;
+    width: 250px;
+    height: 50px;
+    margin-top: 5px;
+}
+
+#github:hover {
+    background-color: darkgray;
+    transition: all 0.15s ease-in;
+    cursor: pointer;
+}
+
+#github p {
+    font-size: 15px;
+    margin: auto 30px;
+}
+
+#apple img {
+    width: 2.5rem;
+    height: 1.4rem;
+}
+
+#apple {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    vertical-align: middle;
+    border: 2px gray solid;
+    width: 250px;
+    height: 50px;
+    margin-top: 5px;
+}
+
+#apple:hover {
+    background-color: darkgray;
+    transition: all 0.15s ease-in;
+    cursor: pointer;
+}
+
+#apple p {
+    font-size: 15px;
+    margin: auto 30px;
+}
+
+#break {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+#break hr {
+    border: 0.1px solid black;
+    display: inline-block;
+    width: 150px;
+    margin: 0 15px;
+}
+
+#email {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#email input[type="text"] {
+    border: 0.15rem solid black;
+    width: 300px;
+    height: 40px;
+    margin-top: 35px;
+    padding-left: 10px;
+}
+
+#email button {
+    margin-top: 10px;
+    height: 40px;
+    border: none;
+    color: black;
+    background-color: orange;
+    border-radius: 2px;
+    font-weight: 500;
+}
+
+#email button:hover {
+    background-color: darkorange;
+    cursor: pointer;
+}
+
+#sign-up a {
+    color: #635dff;
+    text-decoration: none;
+}
+
+#sign-up {
+    padding-top: 5px;
+    font-size: 12px;
+}
+
+footer {
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 13px;
+    opacity: 0.8;
+}
+
+footer a {
+    color: #635dff;
+    text-decoration: none;
+}
