@@ -2,4 +2,51 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    background-color: pink;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#intro {
+    padding: 50px;
+    text-align: center;
+}
+
+#main-content {
+    background-color: rgba(239, 239, 240, 0.3);
+    border-radius: 5px;
+    padding: 10px 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+#like input {
+    margin-bottom: 10px;
+}
+
+#languages input {
+    margin-bottom: 10px;
+}
+
+#sub-but {
+    width: 50%;
+    height: 1.5rem;
+    margin: auto;
+}
+
+input[type="text"] {
+    border-radius: 4px;
+    padding-left: 10px;
+}
+
+select {
+    border-radius: 4px;
 }

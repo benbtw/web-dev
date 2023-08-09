@@ -4,9 +4,61 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;600&display=swap" rel="stylesheet">
     <title>Survey Form</title>
 </head>
 <body>
-    
+    <main>
+        <section class="hero">
+            <div id="intro">
+                <h1>HTML/CSS Survey Form</h1>
+                <p>Thank you for taking the time to provide your input</p>
+            </div>
+            <form id="main-content">
+                <label for="name">Name</label>
+                <input id="name" type="text" required placeholder="Enter your name"><br>
+                <label for="email" >Email</label>
+                <input id="email" type="text" required placeholder="Enter your email"><br>
+                <label for="role">Which option best describes your current role?</label>
+                <select id="role">
+                    <option selected="true" disabled="disabled">Select your current role</option>
+                    <option value="student">Student</option>
+                    <option value="full-time">Full Time Job</option>
+                    <option valie="part-time">Part Time Job</option>
+                    <option value="other">Other</option>
+                </select><br>
+                <div id="like">
+                    <label>Do you like HTMl/CSS?</label><br>
+                    <input id="yes" type="radio" name="yes_no">
+                    <label for="yes">Yes!</label><br>
+                    <input id="no" type="radio" name="yes_no">
+                    <label for="no">No!</label>
+                </div>
+                <div id="languages">
+                    <label>What other languages do you know?</label><br>
+                    <input id="c" type="checkbox">
+                    <label for="c">C</label><br>
+                    <input id="c++" type="checkbox">
+                    <label for="c++">C++</label><br>
+                    <input id="c#" type="checkbox">
+                    <label for="c#">C#</label><br>
+                    <input id="js" type="checkbox">
+                    <label for="js">JavaScript</label><br>
+                    <input id="java" type="checkbox">
+                    <label for="java">Java</label><br>
+                    <input id="python" type="checkbox">
+                    <label for="python">Python</label><br>
+                </div>
+                <button id="sub-but" type="submit" onclick="sub()">Submit</button>
+            </form>
+        </section>
+    </main>
+    <script>
+        function sub() {
+            window.alert("Submitted!");
+        }
+    </script>
 </body>
 </html>
