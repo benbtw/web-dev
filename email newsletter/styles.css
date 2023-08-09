@@ -1,0 +1,543 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+header {
+    background-color: #333333;
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 12px;
+}
+
+header h1 {
+    padding: 5px 0;
+}
+
+#thoughts {
+    background-color: #eee;
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    padding-bottom: 30px;
+}
+
+#thoughts img {
+    width: 4%;
+    height: 7%;
+    border-radius: 50%;
+    position: relative;
+    top: 40px;
+}
+
+#thoughts h1 {
+    padding-top: 20px;
+}
+
+#message {
+    border: 2px solid white;
+    border-top: 4px dotted #333333;
+    background-color: white;
+    width: 28rem;
+    margin: auto;
+    padding: 0 10px;
+    padding: 40px 10px;
+}
+
+#message h2 {
+    padding: 10px 0;
+}
+
+#signs {
+    text-align: center;
+    background-color: #333333;
+    color: white;
+    padding: 10px 0;
+}
+
+#sign-one {
+    background-color: lightcoral;
+    display: flex;
+    padding: 20px 150px;
+}
+
+#one-img {
+    width: 20rem;
+    border-radius: 50%;
+    height: 15rem;
+}
+
+#one-img img {
+    width: 15rem;
+    height: 12rem;
+    border-radius: 50%;
+    margin-left: 100px;
+}
+
+#one-msg {
+    margin: auto;
+    text-align: center;
+    width: 30%;
+    margin-left: 200px;
+}
+
+#sign-two {
+    background-color: cyan;
+    display: flex;
+    padding: 20px 500px;
+}
+
+#two-img {
+    width: 20rem;
+    border-radius: 50%;
+    height: 15rem;
+}
+
+#two-img img {
+    width: 15rem;
+    height: 12rem;
+    border-radius: 50%;
+    margin-left: 100px;
+}
+
+#two-msg {
+    margin: auto;
+    text-align: center;
+    width: 40%;
+    margin-left: 200px;
+}
+
+/*
+    responsive designs
+*/
+
+@media (min-width: 320px) {
+    header {
+        width: 100%;
+        font-size: 6px;
+        text-align: center;
+    }
+
+    #thoughts {
+        font-size: 8px;
+    }
+
+    #thoughts img {
+        width: 2.5rem;
+        top: 25px;
+    }
+
+    #message {
+        width: 80%;
+    }
+
+    #signs {
+        font-size: 8px;
+    }
+
+    #sign-one {
+        height: 222px;
+        text-align: center;
+        padding: 0;
+    }
+
+    #one-msg {
+        font-size: 10px;
+        margin-left: 50px;
+        padding-right: 50px;
+        width: 100%;
+    }
+
+    #sign-one img {
+        width: 5rem;
+        height: 5rem;
+        margin: 50px auto;
+    }
+
+    #sign-two {
+        height: 200px;
+        text-align: center;
+        padding: 0;
+    }
+
+    #two-msg {
+        font-size: 10px;
+        margin-left: 50px;
+        padding-right: 50px;
+        width: 100%;
+    }
+
+    #sign-two img {
+        width: 5rem;
+        height: 5rem;
+        margin: 50px auto;
+    }
+
+    #sign-two {
+        height: 222px;
+        text-align: center;
+        padding: 0;
+    }
+}
+
+@media (min-width: 375px) {
+
+    header {
+        width: 100%;
+        font-size: 6px;
+        text-align: center;
+    }
+
+    #thoughts {
+        font-size: 8px;
+    }
+
+    #thoughts img {
+        width: 2.5rem;
+        top: 25px;
+    }
+
+    #message {
+        width: 80%;
+    }
+
+    #signs {
+        font-size: 8px;
+    }
+
+    #sign-one {
+        height: 232px;
+        text-align: center;
+        padding: 0;
+    }
+
+    #one-msg {
+        font-size: 10px;
+        margin-left: 50px;
+        padding-right: 50px;
+        width: 100%;
+    }
+
+    #sign-one img {
+        width: 5rem;
+        height: 5rem;
+        margin: 50px auto;
+    }
+
+    #sign-two {
+        height: 200px;
+        text-align: center;
+        padding: 0;
+    }
+
+    #two-msg {
+        font-size: 10px;
+        margin-left: 50px;
+        padding-right: 50px;
+        width: 100%;
+    }
+
+    #sign-two img {
+        width: 5rem;
+        height: 5rem;
+        margin: 50px auto;
+    }
+
+    #sign-two {
+        height: 232px;
+        text-align: center;
+        padding: 0;
+    }
+
+}
+
+@media (min-width: 425px) {
+
+    header {
+        width: 100%;
+        font-size: 6px;
+        text-align: center;
+    }
+
+    #thoughts {
+        font-size: 8px;
+    }
+
+    #thoughts img {
+        width: 2.5rem;
+        top: 25px;
+    }
+
+    #message {
+        width: 80%;
+    }
+
+    #signs {
+        font-size: 8px;
+    }
+
+    #sign-one {
+        height: 232px;
+        text-align: center;
+        padding: 0;
+    }
+
+    #one-msg {
+        font-size: 10px;
+        margin-left: 50px;
+        padding-right: 50px;
+        width: 100%;
+    }
+
+    #sign-one img {
+        width: 5rem;
+        height: 5rem;
+        margin: 50px auto;
+    }
+
+    #sign-two {
+        height: 200px;
+        text-align: center;
+        padding: 0;
+    }
+
+    #two-msg {
+        font-size: 10px;
+        margin-left: 50px;
+        padding-right: 50px;
+        width: 100%;
+    }
+
+    #sign-two img {
+        width: 5rem;
+        height: 5rem;
+        margin: 50px auto;
+    }
+
+    #sign-two {
+        height: 232px;
+        text-align: center;
+        padding: 0;
+    }
+
+}
+
+@media (min-width: 768px) {
+
+    header {
+        width: 100%;
+        font-size: 6px;
+        text-align: center;
+    }
+
+    #thoughts {
+        font-size: 8px;
+    }
+
+    #thoughts img {
+        width: 2.5rem;
+        top: 25px;
+    }
+
+    #message {
+        width: 80%;
+        font-size: 12px;
+    }
+
+    #signs {
+        font-size: 8px;
+    }
+
+    #sign-one {
+        height: 238px;
+        text-align: center;
+        padding: 0;
+    }
+
+    #one-msg {
+        font-size: 10px;
+        margin-left: 50px;
+        padding-right: 50px;
+        width: 100%;
+    }
+
+    #sign-one img {
+        width: 5rem;
+        height: 5rem;
+        margin: 50px auto;
+    }
+
+    #sign-two {
+        height: 200px;
+        text-align: center;
+        padding: 0;
+    }
+
+    #two-msg {
+        font-size: 10px;
+        margin-left: 50px;
+        padding-right: 50px;
+        width: 100%;
+    }
+
+    #sign-two img {
+        width: 5rem;
+        height: 5rem;
+        margin: 50px auto;
+    }
+
+    #sign-two {
+        height: 238px;
+        text-align: center;
+        padding: 0;
+    }
+
+}
+
+@media (min-width: 1024px) {
+
+    header {
+        width: 100%;
+        font-size: 8px;
+        text-align: center;
+    }
+
+    #thoughts {
+        font-size: 8px;
+    }
+
+    #thoughts img {
+        width: 2.5rem;
+        top: 25px;
+    }
+
+    #message {
+        width: 80%;
+        font-size: 15px;
+    }
+
+    #signs {
+        font-size: 8px;
+    }
+
+    #sign-one {
+        height: 240px;
+        text-align: center;
+        padding: 0;
+    }
+
+    #one-msg {
+        font-size: 13px;
+        margin-left: 50px;
+        padding-right: 50px;
+        width: 100%;
+    }
+
+    #sign-one img {
+        width: 5rem;
+        height: 5rem;
+        margin: 50px auto;
+    }
+
+    #sign-two {
+        height: 200px;
+        text-align: center;
+        padding: 0;
+    }
+
+    #two-msg {
+        font-size: 13px;
+        margin-left: 50px;
+        padding-right: 50px;
+        width: 100%;
+    }
+
+    #sign-two img {
+        width: 5rem;
+        height: 5rem;
+        margin: 50px auto;
+    }
+
+    #sign-two {
+        height: 240px;
+        text-align: center;
+        padding: 0;
+    }
+
+}
+
+@media (min-width: 1440px) {
+
+    header {
+        width: 100%;
+        font-size: 10px;
+        text-align: center;
+    }
+
+    #thoughts {
+        font-size: 8px;
+    }
+
+    #thoughts img {
+        width: 4rem;
+        top: 32px;
+    }
+
+    #message {
+        width: 80%;
+        height: 350px;
+        font-size: 20px;
+    }
+
+    #signs {
+        font-size: 15px;
+    }
+
+    #sign-one {
+        height: 230px;
+        text-align: center;
+        padding: 0;
+    }
+
+    #one-msg {
+        font-size: 16px;
+        margin-left: 50px;
+        padding-right: 50px;
+        width: 100%;
+    }
+
+    #sign-one img {
+        width: 5rem;
+        height: 5rem;
+        margin: 50px auto;
+    }
+
+    #sign-two {
+        height: 200px;
+        text-align: center;
+        padding: 0;
+    }
+
+    #two-msg {
+        font-size: 16px;
+        margin-left: 50px;
+        padding-right: 50px;
+        width: 100%;
+    }
+
+    #sign-two img {
+        width: 5rem;
+        height: 5rem;
+        margin: 50px auto;
+    }
+
+    #sign-two {
+        height: 250px;
+        text-align: center;
+        padding: 0;
+    }
+}
