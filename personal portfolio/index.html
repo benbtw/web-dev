@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Project Showcase</title>
+</head>
+<body>
+    <div id="centerHelp">
+        <div id="intro">
+            <h1>Ben Matlon</h1>
+            <h2>C/C++ Developer</h2>
+            <h3>Github: <a href="https://github.com/benbtw">benbtw</a></h3>
+            <h3>Email: bensssart@gmail.com</h3>
+            <h3><a href="https://www.linkedin.com/in/ben-matlon-085894168/">LinkedIn</a></h3>
+        </div>
+        <div id="showcase">
+            <h1>Project Showcase</h1>
+            <h2>if you would like to see more of my projects, please check out my github above.</h2>
+        </div>
+        <!-- Div for each individual project -->
+        <div id="project">
+            <h1>2D Platformer<h1>
+            <img src="res/plat1.png">
+            <img src="res/plat2.png">
+            <img src="res/plat3.png">
+            <p>A very simple platformer I wrote in C++ with SDL2. The goal of the game is relatively simple: you need to collect all 14 gems while dodging spikes and enemies. To see the full code, check out the link below.</p>
+            <a id="git" href="https://github.com/benbtw/CPlusPlus/tree/main/platformer">Github Page</a>
+        </div>
+        <div id="project">
+            <h1>Raycaster<h1>
+            <img src="res/ray1.png">
+            <img src="res/ray2.png">
+            <img src="res/ray3.png">
+            <p>Another very simple game, this time a raycasting game I wrote in C++ with FreeGLUT. The goal of this one is to grab the key that spawns next to you, then open one of the yellow doors. Watch out for the enemy that guards the red door you need to go to in order to win. To see the full code, check out the link below.</p>
+            <a id="git" href="https://github.com/benbtw/CPlusPlus/tree/main/mini%20raycaster%20game">Github Page</a>
+        </div>
+        <div id="project">
+            <h1>Tetris Clone<h1>
+            <img src="res/tet.png">
+            <p>A Tetris clone I wrote in C++ with raylib. To see the full code check out the link below<p>
+            <a id="git" href="https://github.com/benbtw/CPlusPlus/tree/main/Tetris">Github Page</a>
+        </div>
+        <div id="project">
+            <h1>Chip8 Emulator<h1>
+            <img src="res/chip8BreakoutDemo.png">
+            <p>A Chip8 emulator I made with C and SDL2. Above is a picture of Breakout running on the emulator I wrote. To see the full code, check out the link below.</p>
+            <a id="git" href="https://github.com/benbtw/C/tree/main/chip8%20emu">Github Page</a>
+        </div>
+        <div id="project">
+            <h1>2D Renderer W/Physics<h1>
+            <img src="res/2dDemo.gif">
+            <p>Demo showing 2 Rect Objects using the Physics.</p>
+            <p>Rendering Functions</p>
+            <code>
+                void drawTriangle(bTriangle triangle);
+                void drawTriangles(bTriangle *triangles, int size);
+
+                void drawRect(bRect rect);
+                void drawRects(bRect *rects, int size);
+
+                void drawPoint(bPoint point);
+                void drawPoints(bPoint *points, int size);
+
+                void drawLine(bLine line);
+                void drawLines(bLine *lines, int size);
+
+                void drawImage(bImage image);
+                void drawImages(bImage *images, int size);
+            </code>
+            <p>Physic Functions</p>
+            <code>
+                // Collisions
+                typedef enum
+                {
+                    NO_COLLISION,
+                    COLLISION_TOP,
+                    COLLISION_BOTTOM,
+                    COLLISION_LEFT,
+                    COLLISION_RIGHT
+                } CollisionSide;
+
+                CollisionSide checkCollision(const bRect *rect1, const bRect *rect2);
+
+                void calculateDeltaTime(float *dt);
+
+                // Movement
+                void Move(int *x, int *y, int speedX, int speedY, float dt);
+                void jump(bRect *rect, float *gravity, int *jumpTimer, int maxTimer, int jumpSpeed, bool *isJumping, float deltaTime);
+            </code>
+            <p>The code demonstrates most of its capabilities. It was written in C using GLFW and GLEW to be compatible with both C and C++. To see the full code, check out the link below.</p>
+            <a id="git" href="https://github.com/benbtw/C/tree/main/2D%20renderer">Github Page</a>
+        </div>
+
+        <!--  Div for mini project section -->
+        <div id="showcase">
+            <h1>Smaller Projects</h1>
+        </div>
+        <div id="project">
+            <h1>Simple Integer Dynamic Array in C<h1>
+            <a id="git" href="https://github.com/benbtw/C/tree/main/dynamic%20array%20(vector)">Github Page</a>
+        </div>
+        <div id="project">
+            <h1>Console Maze Game in C++<h1>
+            <a id="git" href="https://github.com/benbtw/CPlusPlus/tree/main/maze">Github Page</a>
+        </div>
+        <div id="project">
+            <h1>Login/SignUp System in C++<h1>
+            <a id="git" href="https://github.com/benbtw/CPlusPlus/tree/main/Login%20System">Github Page</a>
+        </div>
+        <p>Thank you for checking out my website, where you can find some of my favorite projects.</p>
+        <br></br>
+    </div>
+</body>
